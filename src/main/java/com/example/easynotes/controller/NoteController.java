@@ -15,8 +15,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.easynotes.dao.CreateLoanRequestDaoImpl;
+import com.example.easynotes.dao.EmailNotificationDaoImpl;
 import com.example.easynotes.dao.LoginDAOImpl;
 import com.example.easynotes.model.DefaulterList;
+import com.example.easynotes.model.EmailRequestDetails;
 import com.example.easynotes.model.LoanDetails;
 import com.example.easynotes.model.LoanRequest;
 import com.example.easynotes.model.LoginRequest;
@@ -35,16 +37,29 @@ public class NoteController {
 	
 	@Autowired
 	CreateLoanRequestDaoImpl loanReq;
+	
+	@Autowired
+	EmailNotificationDaoImpl emailReq; 
     
     @PostMapping("/login")
     public ResponseEntity getLoginDetails(@RequestBody LoginRequest login) {
     	return ResponseEntity.ok(dao.login(login));
     }
     
+    @PostMapping("/login")
+    public ResponseEntity sendEmailNotification(@RequestBody EmailRequestDetails emailDetails) {
+    	emailReq.emailRequestDetails(emailDetails);
+    	return ResponseEntity.ok("SUCCESS");
+    }
+    
     @PostMapping("/createLoanRequest")
     public ResponseEntity createLoanRequest(@RequestBody LoanRequest loan) {
     	LoanRequest loanRes = loanReq.createNewLoanRequest(loan);
-    	
+    	EmailRequestDetails emailReq = new EmailRequestDetails();
+    	emailReq.setToEmail(loanRes.getCustomerEmail());
+    	emailReq.setMessageTitle("Loan Status");
+    	emailReq.setMessageBody("Your Request has been Submitted. Please wait for the Approval.");
+    	sendEmailNotification(emailReq);
     	ResponseEntity<LoanRequest> re = new ResponseEntity<LoanRequest>(HttpStatus.ACCEPTED);
         return re;
     }
