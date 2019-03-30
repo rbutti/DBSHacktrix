@@ -39,6 +39,12 @@ public class LoginDAOImpl implements LoginDAO{
 				ps.setString(2, request.getPassword());
 				
 				ResultSet rs = ps.executeQuery();
+				if(rs.first())  {
+				request.setRole(rs.getString("USER_ROLE"));
+				request.setMessage("USER LOGIN SUCCESSFULL");
+				} else {
+					request.setMessage("USER LOGIN FAILED");
+				}
 				
 				rs.close();
 				ps.close();
