@@ -1,20 +1,20 @@
 package com.example.easynotes.model;
 
 public class LoanRequest {
-	int customerId;
+	long customerId;
     String customerName;
     String customerEmail;
     String gender;
-    float customerPhone;
+    long customerPhone;
     String customerAddress;
     String panNumber;
     String aadharNumber;
-    double loanAmount;
+    long loanAmount;
     
-    public double getLoanAmount() {
+    public long getLoanAmount() {
 		return loanAmount;
 	}
-	public void setLoanAmount(double loanAmount) {
+	public void setLoanAmount(long loanAmount) {
 		this.loanAmount = loanAmount;
 	}
 	public double getLoanId() {
@@ -26,10 +26,10 @@ public class LoanRequest {
 	double monthlyIncome;
     double loanId;
 
-    public int getCustomerId() {
+    public long getCustomerId() {
 		return customerId;
 	}
-	public void setCustomerId(int customerId) {
+	public void setCustomerId(long customerId) {
 		this.customerId = customerId;
 	}
 	public String getCustomerName() {
@@ -50,10 +50,10 @@ public class LoanRequest {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public float getCustomerPhone() {
+	public long getCustomerPhone() {
 		return customerPhone;
 	}
-	public void setCustomerPhone(float customerPhone) {
+	public void setCustomerPhone(long customerPhone) {
 		this.customerPhone = customerPhone;
 	}
 	public String getCustomerAddress() {
