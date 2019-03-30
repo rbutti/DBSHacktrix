@@ -3,6 +3,8 @@ package com.example.easynotes.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.websocket.server.PathParam;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.easynotes.model.DefaulterList;
 import com.example.easynotes.model.LoginRequest;
 import com.example.easynotes.model.Note;
+import com.example.easynotes.model.PersonDetails;
 
 /**
  * Created by rajeevkumarsingh on 27/06/17.
@@ -36,11 +39,9 @@ public class NoteController {
 //    }
     
     @PostMapping("/login")
-    public ResponseEntity getAllNotes(@RequestBody LoginRequest login) {
+    public ResponseEntity getUserDetails(@RequestBody LoginRequest login) {
     	
     	ResponseEntity<LoginRequest> re = new ResponseEntity<LoginRequest>(HttpStatus.ACCEPTED);
-  
-
         return re;
     }
     
@@ -51,6 +52,14 @@ public class NoteController {
     	ResponseEntity<DefaulterList> re = new ResponseEntity<DefaulterList>(HttpStatus.ACCEPTED);
     	return re;
     }
+    
+    @GetMapping("/getPersonDetails")
+    public ResponseEntity<PersonDetails> getPersonDetails(@PathParam(value = "userId") String userId) {
+    	PersonDetails  pr = new PersonDetails();
+    	return ResponseEntity.ok(pr);
+    }
+    
+    
 
     /*@GetMapping("/notes/{id}")
     public Note getNoteById(@PathVariable(value = "id") Long noteId) {
