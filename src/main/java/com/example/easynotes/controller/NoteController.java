@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.easynotes.model.DefaulterList;
+import com.example.easynotes.model.LoanDetails;
 import com.example.easynotes.model.LoginRequest;
 import com.example.easynotes.model.Note;
 import com.example.easynotes.model.PersonDetails;
@@ -39,7 +40,7 @@ public class NoteController {
 //    }
     
     @PostMapping("/login")
-    public ResponseEntity getUserDetails(@RequestBody LoginRequest login) {
+    public ResponseEntity getLoginDetails(@RequestBody LoginRequest login) {
     	
     	ResponseEntity<LoginRequest> re = new ResponseEntity<LoginRequest>(HttpStatus.ACCEPTED);
         return re;
@@ -54,12 +55,22 @@ public class NoteController {
     }
     
     @GetMapping("/getPersonDetails")
-    public ResponseEntity<PersonDetails> getPersonDetails(@PathParam(value = "userId") String userId) {
+    public ResponseEntity<PersonDetails> getPersonDetails(@PathParam(value = "customerId") String customerId) {
     	PersonDetails  pr = new PersonDetails();
     	return ResponseEntity.ok(pr);
     }
     
+    @GetMapping("/getLoanDetails")
+    public ResponseEntity<LoanDetails> getLoanDetails(@PathParam(value = "customerId") String customerId) {
+    	LoanDetails  pr = new LoanDetails();
+    	return ResponseEntity.ok(pr);
+    }
     
+    @GetMapping("/getUserDetails")
+    public ResponseEntity<LoanDetails> getUserDetails(@PathParam(value = "userId") String userId) {
+    	LoanDetails  pr = new LoanDetails();
+    	return ResponseEntity.ok(pr);
+    }
 
     /*@GetMapping("/notes/{id}")
     public Note getNoteById(@PathVariable(value = "id") Long noteId) {
