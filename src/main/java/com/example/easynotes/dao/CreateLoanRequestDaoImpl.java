@@ -9,9 +9,11 @@ import java.sql.SQLException;
 import javax.sql.DataSource;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import com.example.easynotes.model.LoanRequest;
 
+@Repository
 public class CreateLoanRequestDaoImpl implements CreateLoanRequestDao{
 	
 	@Autowired

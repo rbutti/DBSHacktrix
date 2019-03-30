@@ -11,6 +11,8 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
+import org.springframework.stereotype.Repository;
+@Repository
 public class EmailNotificationDaoImpl implements EmailNotificationDao {
 
 	@Override

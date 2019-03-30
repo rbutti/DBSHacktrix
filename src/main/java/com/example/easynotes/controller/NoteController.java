@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.easynotes.dao.CreateLoanRequestDaoImpl;
 import com.example.easynotes.dao.EmailNotificationDaoImpl;
 import com.example.easynotes.dao.LoginDAOImpl;
+import com.example.easynotes.dao.PersonalDAOimpl;
 import com.example.easynotes.model.DefaulterList;
 import com.example.easynotes.model.EmailRequestDetails;
 import com.example.easynotes.model.LoanDetails;
@@ -37,6 +38,10 @@ public class NoteController {
 	
 	@Autowired
 	CreateLoanRequestDaoImpl loanReq;
+	
+		
+	@Autowired
+	PersonalDAOimpl dao1;
 	
 	@Autowired
 	EmailNotificationDaoImpl emailReq; 
@@ -73,7 +78,18 @@ public class NoteController {
     @GetMapping("/getPersonDetails")
     public ResponseEntity<PersonDetails> getPersonDetails(@PathParam(value = "customerId") String customerId) {
     	PersonDetails  pr = new PersonDetails();
-    	return ResponseEntity.ok(pr);
+    	
+    	PersonDetails dt=dao1.getPersonalDetails(customerId);
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	return ResponseEntity.ok(dt);
     }
     
     @GetMapping("/getLoanDetails")
