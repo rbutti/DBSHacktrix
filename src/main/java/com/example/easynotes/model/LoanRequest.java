@@ -9,7 +9,15 @@ public class LoanRequest {
     String customerAddress;
     String panNumber;
     String aadharNumber;
-    public double getLoanId() {
+    double loanAmount;
+    
+    public double getLoanAmount() {
+		return loanAmount;
+	}
+	public void setLoanAmount(double loanAmount) {
+		this.loanAmount = loanAmount;
+	}
+	public double getLoanId() {
 		return loanId;
 	}
 	public void setLoanId(double loanId) {
