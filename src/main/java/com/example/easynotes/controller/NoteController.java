@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.easynotes.dao.CreateLoanRequestDaoImpl;
 import com.example.easynotes.dao.LoginDAOImpl;
 import com.example.easynotes.dao.PersonalDAOimpl;
 import com.example.easynotes.model.DefaulterList;
@@ -33,6 +34,10 @@ public class NoteController {
 	@Autowired
 	LoginDAOImpl dao;
 	
+		
+	@Autowired
+	CreateLoanRequestDaoImpl loanReq;
+	
 	@Autowired
 	PersonalDAOimpl dao1;
     
@@ -43,6 +48,8 @@ public class NoteController {
     
     @PostMapping("/createLoanRequest")
     public ResponseEntity createLoanRequest(@RequestBody LoanRequest loan) {
+    	LoanRequest loanRes = loanReq.createNewLoanRequest(loan);
+    	
     	ResponseEntity<LoanRequest> re = new ResponseEntity<LoanRequest>(HttpStatus.ACCEPTED);
         return re;
     }

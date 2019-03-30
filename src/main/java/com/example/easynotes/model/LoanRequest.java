@@ -1,35 +1,42 @@
 package com.example.easynotes.model;
 
 public class LoanRequest {
-	int customerId;
+	long customerId;
     String customerName;
     String customerEmail;
     String gender;
-    float customerPhone;
+    long customerPhone;
     String customerAddress;
     String panNumber;
-    String aadharNumber;
-    double loanAmount;
+    long aadharNumber;
+    long loanAmount;
+    long loanDuration;
+    long monthlyIncome;
+	long loanId;
     
-    public double getLoanAmount() {
+    public long getLoanDuration() {
+		return loanDuration;
+	}
+	public void setLoanDuration(long loanDuration) {
+		this.loanDuration = loanDuration;
+	}
+	public long getLoanAmount() {
 		return loanAmount;
 	}
-	public void setLoanAmount(double loanAmount) {
+	public void setLoanAmount(long loanAmount) {
 		this.loanAmount = loanAmount;
 	}
-	public double getLoanId() {
+	public long getLoanId() {
 		return loanId;
 	}
-	public void setLoanId(double loanId) {
+	public void setLoanId(long loanId) {
 		this.loanId = loanId;
 	}
-	double monthlyIncome;
-    double loanId;
 
-    public int getCustomerId() {
+    public long getCustomerId() {
 		return customerId;
 	}
-	public void setCustomerId(int customerId) {
+	public void setCustomerId(long customerId) {
 		this.customerId = customerId;
 	}
 	public String getCustomerName() {
@@ -50,10 +57,10 @@ public class LoanRequest {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public float getCustomerPhone() {
+	public long getCustomerPhone() {
 		return customerPhone;
 	}
-	public void setCustomerPhone(float customerPhone) {
+	public void setCustomerPhone(long customerPhone) {
 		this.customerPhone = customerPhone;
 	}
 	public String getCustomerAddress() {
@@ -68,16 +75,16 @@ public class LoanRequest {
 	public void setPanNumber(String panNumber) {
 		this.panNumber = panNumber;
 	}
-	public String getAadharNumber() {
+	public long getAadharNumber() {
 		return aadharNumber;
 	}
-	public void setAadharNumber(String aadharNumber) {
+	public void setAadharNumber(long aadharNumber) {
 		this.aadharNumber = aadharNumber;
 	}
-	public double getMonthlyIncome() {
+	public long getMonthlyIncome() {
 		return monthlyIncome;
 	}
-	public void setMonthlyIncome(double monthlyIncome) {
+	public void setMonthlyIncome(long monthlyIncome) {
 		this.monthlyIncome = monthlyIncome;
 	}
     

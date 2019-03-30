@@ -35,7 +35,7 @@ public class LoginDAOImpl implements LoginDAO{
 			try {
 				conn = dataSource.getConnection();
 				PreparedStatement ps = conn.prepareStatement(sql);
-				ps.setString(1, request.getUserId());
+				ps.setLong(1, request.getUserId());
 				ps.setString(2, request.getPassword());
 				
 				ResultSet rs = ps.executeQuery();

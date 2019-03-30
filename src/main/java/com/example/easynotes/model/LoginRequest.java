@@ -2,16 +2,16 @@ package com.example.easynotes.model;
 
 public class LoginRequest {
 
-	private String userId;
+	private long userId;
 	private String password;
 	private String role;
 	private String message;
 
-	public String getUserId() {
+	public long getUserId() {
 		return userId;
 	}
 
-	public void setUserId(String userId) {
+	public void setUserId(long userId) {
 		this.userId = userId;
 	}
 
