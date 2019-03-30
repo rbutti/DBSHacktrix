@@ -1,6 +1,5 @@
 package com.example.easynotes.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.websocket.server.PathParam;
@@ -15,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.easynotes.dao.CreateLoanRequestDaoImpl;
+import com.example.easynotes.dao.DefaulterDetailsDao;
+import com.example.easynotes.dao.DefaulterDetailsDaoImpl;
 import com.example.easynotes.dao.EmailNotificationDaoImpl;
 import com.example.easynotes.dao.LoginDAOImpl;
 import com.example.easynotes.dao.PersonalDAOimpl;
@@ -45,6 +46,9 @@ public class NoteController {
 	
 	@Autowired
 	EmailNotificationDaoImpl emailReq; 
+	
+	@Autowired
+	DefaulterDetailsDaoImpl defaulterReq;
     
     @PostMapping("/login")
     public ResponseEntity getLoginDetails(@RequestBody LoginRequest login) {
@@ -71,7 +75,8 @@ public class NoteController {
     
     @PostMapping("/getDefaulterList")
     public ResponseEntity createNote() {
-    	ResponseEntity<DefaulterList> re = new ResponseEntity<DefaulterList>(HttpStatus.ACCEPTED);
+    	List<DefaulterList> defList = defaulterReq.getDefaulterList();
+    	ResponseEntity<List<DefaulterList>> re = new ResponseEntity<List<DefaulterList>>(HttpStatus.ACCEPTED);
     	return re;
     }
     
@@ -80,14 +85,6 @@ public class NoteController {
     	PersonDetails  pr = new PersonDetails();
     	
     	PersonDetails dt=dao1.getPersonalDetails(customerId);
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
     	
     	return ResponseEntity.ok(dt);
     }
