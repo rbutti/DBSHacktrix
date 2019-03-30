@@ -41,7 +41,7 @@ public class NoteController {
     }
     
     @PostMapping("/getDefaulterList")
-    public ResponseEntity createNote(@RequestBody DefaulterList defaulter) {
+    public ResponseEntity createNote() {
     	ResponseEntity<DefaulterList> re = new ResponseEntity<DefaulterList>(HttpStatus.ACCEPTED);
     	return re;
     }
