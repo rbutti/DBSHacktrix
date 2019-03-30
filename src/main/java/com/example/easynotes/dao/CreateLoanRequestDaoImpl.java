@@ -49,11 +49,27 @@ public class CreateLoanRequestDaoImpl implements CreateLoanRequestDao{
 				loanS.setLong(1, customerId);
 				loanS.setLong(2, loanData.getLoanAmount());
 				loanS.setString(3, "PENDING");
-				loanS.setLong(4, 3);
-				loanS.setString(5, loanData.getGender());
+				loanS.setLong(4, 3L);
+				loanS.setLong(5, loanData.getLoanDuration());
 				loanS.setDate(6, new Date(System.currentTimeMillis()));
 				int loanCount  = loanS.executeUpdate();
 				ps.close();
+				
+				String kycDataSql = "INSERT INTO CUSTOMER_LOAN_ACCOUNT_DETAILS " +
+						"(CUSTOMER_ID, LOAN_AMOUNT,STATUS,INTEREST_RATE,LOAN_DURATION,LOAN_APPLICATION_DATE) VALUES (?, ?, ?,?,?,?)";
+				conn = dataSource.getConnection();
+				PreparedStatement kyc = conn.prepareStatement(kycDataSql);
+				kyc.setLong(1, customerId);
+				kyc.setLong(2, loanData.getLoanAmount());
+				kyc.setString(3, "PENDING");
+				kyc.setLong(4, 3);
+				kyc.setString(5, loanData.getGender());
+				kyc.setDate(6, new Date(System.currentTimeMillis()));
+				int kycCount  = kyc.executeUpdate();
+				ps.close();
+				loanData.setCustomerId(customerId);
+				if(loanCount ==1 && kycCount ==1)
+					insertKycData(loanData);
 			}
 			
 		} catch (SQLException e) {
@@ -70,9 +86,28 @@ public class CreateLoanRequestDaoImpl implements CreateLoanRequestDao{
 		return loanData;
 	}
 
+	private void insertKycData(LoanRequest loanData) {
+		Connection conn = null;
+		String customerDataSql = "INSERT INTO CUSTOMER_KYC_DETAILS " +
+				"(CUSTOMER_ID, CUSTOMER_PAN_NUMBER,CUSTOMER_AADHAR_NUMBER,CUSTOMER_MONTHLY_INCOME) VALUES (?, ?, ?,?)";
+		try {
+			conn = dataSource.getConnection();
+			PreparedStatement ps = conn.prepareStatement(customerDataSql);
+			ps.setLong(1, loanData.getCustomerId());
+			ps.setString(2, loanData.getPanNumber());
+			ps.setLong(3, loanData.getAadharNumber());
+			ps.setLong(4, loanData.getMonthlyIncome());
+			int count  = ps.executeUpdate();
+			ps.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
 	private long getCustomerId(String email) {
 		// TODO Auto-generated method stub
-String sql = "SELECT * FROM CUSTOMER_PERSONAL_DETAILS WHERE CUSTOMER_EMAIL = ?";
+		String sql = "SELECT * FROM CUSTOMER_PERSONAL_DETAILS WHERE CUSTOMER_EMAIL = ?";
 		
 		Connection conn = null;
 		Long customerId = null;

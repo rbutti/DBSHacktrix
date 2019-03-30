@@ -8,23 +8,30 @@ public class LoanRequest {
     long customerPhone;
     String customerAddress;
     String panNumber;
-    String aadharNumber;
+    long aadharNumber;
     long loanAmount;
+    long loanDuration;
+    long monthlyIncome;
+	long loanId;
     
-    public long getLoanAmount() {
+    public long getLoanDuration() {
+		return loanDuration;
+	}
+	public void setLoanDuration(long loanDuration) {
+		this.loanDuration = loanDuration;
+	}
+	public long getLoanAmount() {
 		return loanAmount;
 	}
 	public void setLoanAmount(long loanAmount) {
 		this.loanAmount = loanAmount;
 	}
-	public double getLoanId() {
+	public long getLoanId() {
 		return loanId;
 	}
-	public void setLoanId(double loanId) {
+	public void setLoanId(long loanId) {
 		this.loanId = loanId;
 	}
-	double monthlyIncome;
-    double loanId;
 
     public long getCustomerId() {
 		return customerId;
@@ -68,16 +75,16 @@ public class LoanRequest {
 	public void setPanNumber(String panNumber) {
 		this.panNumber = panNumber;
 	}
-	public String getAadharNumber() {
+	public long getAadharNumber() {
 		return aadharNumber;
 	}
-	public void setAadharNumber(String aadharNumber) {
+	public void setAadharNumber(long aadharNumber) {
 		this.aadharNumber = aadharNumber;
 	}
-	public double getMonthlyIncome() {
+	public long getMonthlyIncome() {
 		return monthlyIncome;
 	}
-	public void setMonthlyIncome(double monthlyIncome) {
+	public void setMonthlyIncome(long monthlyIncome) {
 		this.monthlyIncome = monthlyIncome;
 	}
     
