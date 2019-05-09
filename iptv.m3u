@@ -1,3 +1,4 @@
+#EXTM3U
 #EXTINF:-1,TAMIL | STAR VIJAY HD*
 http://p5.giffy.be:8080/OCWMLflL7L/ZjTRHtlZbY/92786
 #EXTINF:-1,TAMIL | STAR VIJAY HD* (Back Up)
@@ -785,11 +786,6 @@ http://p5.giffy.be:8080/OCWMLflL7L/ZjTRHtlZbY/92841
 #EXTINF:-1,SPORTS | TEN 3 HD*
 http://p5.giffy.be:8080/OCWMLflL7L/ZjTRHtlZbY/92840
 
-
-
-
-
-#EXTM3U
 #EXTINF:-1 tvg-logo="http://www.1yestv.com/images/logo.png" group-title="INDIA",1 Yes TV
 http://150.242.21.2/oneyes.m3u8
 
