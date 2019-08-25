@@ -1,88 +1,596 @@
 #EXTM3U
-#EXTINF:-1,|IN| &Picture HD
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5806
-#EXTINF:-1,|IN| &TV HD
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5805
-#EXTINF:-1,|IN| Colors HD
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5804
-#EXTINF:-1,IN: Colors_Kannada
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5803
-#EXTINF:-1,|IN| COLORS GUJARATI
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5802
-#EXTINF:-1,|IN| Gemini
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5801
-#EXTINF:-1,|IN| Gemini Movies
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5800
-#EXTINF:-1,|IN| JayaMax
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5799
-#EXTINF:-1,|IN| JayaTV
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5798
-#EXTINF:-1,|IN| KTV
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5797
-#EXTINF:-1,|IN| Ndtv 24x7
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5796
-#EXTINF:-1,|IN| SonySab
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5795
-#EXTINF:-1,|IN| Sony Six
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5794
-#EXTINF:-1,|IN6 Sony Tv
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5793
-#EXTINF:-1,IN: StarGold
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5792
-#EXTINF:-1,|IN| Star Plus
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5791
-#EXTINF:-1,|IN| Star Sport 1
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5790
-#EXTINF:-1,IN: StarSport2
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5789
-#EXTINF:-1,IN: StarSport3
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5788
-#EXTINF:-1,IN: StarSport4
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5787
-#EXTINF:-1,|IN| Star Vijaya
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5786
-#EXTINF:-1,|IN| Sun TV
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5785
-#EXTINF:-1,|IN| SONY Ten 1
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5784
-#EXTINF:-1,|IN| SONY Ten 3
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5783
-#EXTINF:-1,IN: VimBam
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5782
-#EXTINF:-1,|IN| Willow
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5781
-#EXTINF:-1,|IN| Zee Anmol
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5779
-#EXTINF:-1,|IN| Zee Bangla
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5778
-#EXTINF:-1,|IN| Zee Cinema
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5777
-#EXTINF:-1,IN: ZeeClassic
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5776
-#EXTINF:-1,IN: ZeeKalinga
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5775
-#EXTINF:-1,IN: ZeeKannada
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5774
-#EXTINF:-1,IN: ZeeLamhe
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5773
-#EXTINF:-1,|IN| Zee Living
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5772
+#EXTINF:-1,###### -- |IN| INDIA |IN| -- ######
+http://fpro.webvps.de:25443/tahsin/123456/22425
+#EXTINF:-1,|IN|* ZOOM
+http://fpro.webvps.de:25443/tahsin/123456/19134
+#EXTINF:-1,|IN|* ZING
+http://fpro.webvps.de:25443/tahsin/123456/19135
+#EXTINF:-1,|IN|* Zee_Tv_HD
+http://fpro.webvps.de:25443/tahsin/123456/19136
+#EXTINF:-1,|IN|* ZEE_Tami
+http://fpro.webvps.de:25443/tahsin/123456/19137
+#EXTINF:-1,|IN|* Zee_Talkies_USA
+http://fpro.webvps.de:25443/tahsin/123456/19138
+#EXTINF:-1,|IN|* Zee_Talkies
+http://fpro.webvps.de:25443/tahsin/123456/19139
+#EXTINF:-1,|IN|* Zee_Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19140
+#EXTINF:-1,|IN|* Zee_NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19141
+#EXTINF:-1,|IN|* ZEE_Marathi_USA
+http://fpro.webvps.de:25443/tahsin/123456/19142
+#EXTINF:-1,|IN|* ZEE_Marathi_HD
+http://fpro.webvps.de:25443/tahsin/123456/19143
+#EXTINF:-1,|IN|* Zee_Living
+http://fpro.webvps.de:25443/tahsin/123456/19144
+#EXTINF:-1,|IN|* Zee_Classic
+http://fpro.webvps.de:25443/tahsin/123456/19145
+#EXTINF:-1,|IN|* Zee_Cinema_Bangla.
+http://fpro.webvps.de:25443/tahsin/123456/19146
+#EXTINF:-1,|IN|* Zee_Cinema
+http://fpro.webvps.de:25443/tahsin/123456/19147
+#EXTINF:-1,|IN|* Zee_Cafe_Hd
+http://fpro.webvps.de:25443/tahsin/123456/19148
+#EXTINF:-1,|IN|* Zee_Bollywood
+http://fpro.webvps.de:25443/tahsin/123456/19149
+#EXTINF:-1,|IN|* Zee_Anmol.
+http://fpro.webvps.de:25443/tahsin/123456/19150
+#EXTINF:-1,|IN|* Zee_Action
+http://fpro.webvps.de:25443/tahsin/123456/19151
+#EXTINF:-1,|IN|* UTV_MOVIES
+http://fpro.webvps.de:25443/tahsin/123456/19152
+#EXTINF:-1,|IN|* TV_9_Maharashtra
+http://fpro.webvps.de:25443/tahsin/123456/19153
+#EXTINF:-1,|IN|* TV 9_TELUGU NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19154
+#EXTINF:-1,|IN|* TV 9_GUJARATI|
+http://fpro.webvps.de:25443/tahsin/123456/19155
+#EXTINF:-1,|IN|* Ten_Golf.
+http://fpro.webvps.de:25443/tahsin/123456/19156
+#EXTINF:-1,|IN|* TEN_3
+http://fpro.webvps.de:25443/tahsin/123456/19157
+#EXTINF:-1,|IN|* TEN_2
+http://fpro.webvps.de:25443/tahsin/123456/19158
+#EXTINF:-1,|IN|* Ten_1
+http://fpro.webvps.de:25443/tahsin/123456/19159
+#EXTINF:-1,|IN|* Sun_TV
+http://fpro.webvps.de:25443/tahsin/123456/19160
+#EXTINF:-1,|IN|* Sun_Music
+http://fpro.webvps.de:25443/tahsin/123456/19161
+#EXTINF:-1,|IN|* Star_Vijay
+http://fpro.webvps.de:25443/tahsin/123456/19162
+#EXTINF:-1,|IN|* Star_Sports_4
+http://fpro.webvps.de:25443/tahsin/123456/19163
+#EXTINF:-1,|IN|* Star_Sports_3
+http://fpro.webvps.de:25443/tahsin/123456/19164
+#EXTINF:-1,|IN|* Star_Sports_2_HD
+http://fpro.webvps.de:25443/tahsin/123456/19165
+#EXTINF:-1,|IN|* Star_Sports_1_HD
+http://fpro.webvps.de:25443/tahsin/123456/19166
+#EXTINF:-1,|IN|* Star_Plus_UK
+http://fpro.webvps.de:25443/tahsin/123456/19167
+#EXTINF:-1,|IN|* Star_Plus
+http://fpro.webvps.de:25443/tahsin/123456/19168
+#EXTINF:-1,|IN|* Star_Gold
+http://fpro.webvps.de:25443/tahsin/123456/19169
+#EXTINF:-1,|IN|* Sony_TV
+http://fpro.webvps.de:25443/tahsin/123456/19170
+#EXTINF:-1,|IN|* Sony_SetMax
+http://fpro.webvps.de:25443/tahsin/123456/19171
+#EXTINF:-1,|IN|* Sony_SAB
+http://fpro.webvps.de:25443/tahsin/123456/19172
+#EXTINF:-1,|IN|* Sony_ESPN
+http://fpro.webvps.de:25443/tahsin/123456/19173
+#EXTINF:-1,|IN|* POGO_TV
+http://fpro.webvps.de:25443/tahsin/123456/19174
+#EXTINF:-1,|IN|* Life_oK
+http://fpro.webvps.de:25443/tahsin/123456/19175
+#EXTINF:-1,|IN|* Jaya_Movies_Tamil
+http://fpro.webvps.de:25443/tahsin/123456/19176
+#EXTINF:-1,|IN|* JAYA_MAX_USA
+http://fpro.webvps.de:25443/tahsin/123456/19177
+#EXTINF:-1,|IN|* Jaya_Max_Tamil
+http://fpro.webvps.de:25443/tahsin/123456/19178
+#EXTINF:-1,|IN|* FOOD_FOOD
+http://fpro.webvps.de:25443/tahsin/123456/19179
+#EXTINF:-1,|IN|* Discovery_Turbo_India
+http://fpro.webvps.de:25443/tahsin/123456/19180
+#EXTINF:-1,|IN|* Discovery
+http://fpro.webvps.de:25443/tahsin/123456/19181
+#EXTINF:-1,|IN|* DESI_BEATS
+http://fpro.webvps.de:25443/tahsin/123456/19182
+#EXTINF:-1,|IN|* Colors
+http://fpro.webvps.de:25443/tahsin/123456/19183
+#EXTINF:-1,|IN|* Cartoon_Network_Hindi
+http://fpro.webvps.de:25443/tahsin/123456/19184
+#EXTINF:-1,|IN|* B4U_Plus
+http://fpro.webvps.de:25443/tahsin/123456/19185
+#EXTINF:-1,|IN|* B4U_Music
+http://fpro.webvps.de:25443/tahsin/123456/19186
+#EXTINF:-1,|IN|* B4U_Movies
+http://fpro.webvps.de:25443/tahsin/123456/19187
+#EXTINF:-1,|IN|* B4U_Aflam_arabic
+http://fpro.webvps.de:25443/tahsin/123456/19188
+#EXTINF:-1,|IN|* AsiaNet_TV
+http://fpro.webvps.de:25443/tahsin/123456/19189
+#EXTINF:-1,|IN|* ASIANET_PLUS
+http://fpro.webvps.de:25443/tahsin/123456/19190
+#EXTINF:-1,|IN|* ASIANET_NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19191
+#EXTINF:-1,|IN|* ASIANET_MOVIES
+http://fpro.webvps.de:25443/tahsin/123456/19192
+#EXTINF:-1,|IN|* &_TV
+http://fpro.webvps.de:25443/tahsin/123456/19193
+#EXTINF:-1,|IN| Zing TV
+http://fpro.webvps.de:25443/tahsin/123456/19218
+#EXTINF:-1,|IN| Zindagi
+http://fpro.webvps.de:25443/tahsin/123456/19219
+#EXTINF:-1,|IN| Zee tv Uk
+http://fpro.webvps.de:25443/tahsin/123456/19194
+#EXTINF:-1,|IN| ZEE TV ME
+http://fpro.webvps.de:25443/tahsin/123456/19220
+#EXTINF:-1,|IN| Zee Telugu Ditto
+http://fpro.webvps.de:25443/tahsin/123456/19221
+#EXTINF:-1,|IN| Zee Talkies
+http://fpro.webvps.de:25443/tahsin/123456/19343
+#EXTINF:-1,|IN| Zee Taas24
+http://fpro.webvps.de:25443/tahsin/123456/19222
+#EXTINF:-1,|IN| Zee Smile
+http://fpro.webvps.de:25443/tahsin/123456/19223
+#EXTINF:-1,|IN| Zee Salam
+http://fpro.webvps.de:25443/tahsin/123456/19224
+#EXTINF:-1,|IN| Zee news
+http://fpro.webvps.de:25443/tahsin/123456/19195
 #EXTINF:-1,|IN| Zee Marathi
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5771
-#EXTINF:-1,IN: ZeeSmile
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5770
-#EXTINF:-1,IN: ZeeTalkies
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5769
-#EXTINF:-1,IN: ZeeTamil
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5768
-#EXTINF:-1,IN: ZeeTelugu
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5767
-#EXTINF:-1,IN: ZeeTV
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5766
-#EXTINF:-1,|IN| Zee Telugu
-http://iptvpro.watch-vision.net:8789/turkey/turkey1/5780
-
-
+http://fpro.webvps.de:25443/tahsin/123456/19344
+#EXTINF:-1,|IN| Zee Living
+http://fpro.webvps.de:25443/tahsin/123456/19196
+#EXTINF:-1,|IN| Zee HD
+http://fpro.webvps.de:25443/tahsin/123456/19345
+#EXTINF:-1,|IN| Zee Classic
+http://fpro.webvps.de:25443/tahsin/123456/19225
+#EXTINF:-1,|IN| ZEE Cinema
+http://fpro.webvps.de:25443/tahsin/123456/19226
+#EXTINF:-1,|IN| ZEE Business
+http://fpro.webvps.de:25443/tahsin/123456/19227
+#EXTINF:-1,|IN| ZEE Bollywood HD
+http://fpro.webvps.de:25443/tahsin/123456/19228
+#EXTINF:-1,|IN| ZEE BANGLA Cinema HD
+http://fpro.webvps.de:25443/tahsin/123456/19229
+#EXTINF:-1,|IN| Zee bangla
+http://fpro.webvps.de:25443/tahsin/123456/19230
+#EXTINF:-1,|IN| Zee Anmol
+http://fpro.webvps.de:25443/tahsin/123456/19231
+#EXTINF:-1,|IN| Zee Action
+http://fpro.webvps.de:25443/tahsin/123456/19232
+#EXTINF:-1,|IN| WILLOW CRICKET HD
+http://fpro.webvps.de:25443/tahsin/123456/19351
+#EXTINF:-1,|IN| WILLOW CRICKET  Backup
+http://fpro.webvps.de:25443/tahsin/123456/19342
+#EXTINF:-1,|IN| VIP Zee Cinema HD
+http://fpro.webvps.de:25443/tahsin/123456/19197
+#EXTINF:-1,|IN| VIP Tamil: Sun tv HD
+http://fpro.webvps.de:25443/tahsin/123456/19198
+#EXTINF:-1,|IN| VIP Star sports HD4
+http://fpro.webvps.de:25443/tahsin/123456/19199
+#EXTINF:-1,|IN| VIP Star sports HD3
+http://fpro.webvps.de:25443/tahsin/123456/19200
+#EXTINF:-1,|IN| VIP Star sports HD2
+http://fpro.webvps.de:25443/tahsin/123456/19201
+#EXTINF:-1,|IN| VIP Star sports HD1
+http://fpro.webvps.de:25443/tahsin/123456/19202
+#EXTINF:-1,|IN| VIP STAR PLUS HD
+http://fpro.webvps.de:25443/tahsin/123456/19203
+#EXTINF:-1,|IN| VIP Star Movies select HD
+http://fpro.webvps.de:25443/tahsin/123456/19204
+#EXTINF:-1,|IN| VIP STAR MOVIES HD
+http://fpro.webvps.de:25443/tahsin/123456/19205
+#EXTINF:-1,|IN| VIP Star movies
+http://fpro.webvps.de:25443/tahsin/123456/19206
+#EXTINF:-1,|IN| VIP STAR GOLD HD
+http://fpro.webvps.de:25443/tahsin/123456/19207
+#EXTINF:-1,|IN| VIP Sony six HD
+http://fpro.webvps.de:25443/tahsin/123456/19208
+#EXTINF:-1,|IN| VIP SONY MAX HD
+http://fpro.webvps.de:25443/tahsin/123456/19209
+#EXTINF:-1,|IN| VIP SONY HD
+http://fpro.webvps.de:25443/tahsin/123456/19210
+#EXTINF:-1,|IN| VIP LIFE OK HD
+http://fpro.webvps.de:25443/tahsin/123456/19211
+#EXTINF:-1,|IN| VIP IN: COLORS HD
+http://fpro.webvps.de:25443/tahsin/123456/19212
+#EXTINF:-1,|IN| VIP HBO
+http://fpro.webvps.de:25443/tahsin/123456/19213
+#EXTINF:-1,|IN| VIP D2H CINEMA FHD 1080
+http://fpro.webvps.de:25443/tahsin/123456/19214
+#EXTINF:-1,|IN| VIP AAPKA COLORS HD
+http://fpro.webvps.de:25443/tahsin/123456/19215
+#EXTINF:-1,|IN| UTV MOVIES
+http://fpro.webvps.de:25443/tahsin/123456/19233
+#EXTINF:-1,|IN| UTV Bindass
+http://fpro.webvps.de:25443/tahsin/123456/19234
+#EXTINF:-1,|IN| Travel xp HD
+http://fpro.webvps.de:25443/tahsin/123456/19235
+#EXTINF:-1,|IN| TIME NOW
+http://fpro.webvps.de:25443/tahsin/123456/19236
+#EXTINF:-1,|IN| Ten Sports HD
+http://fpro.webvps.de:25443/tahsin/123456/19352
+#EXTINF:-1,|IN| TEN Golf HD
+http://fpro.webvps.de:25443/tahsin/123456/19237
+#EXTINF:-1,|IN| Ten Cricket*
+http://fpro.webvps.de:25443/tahsin/123456/19238
+#EXTINF:-1,|IN| TEN CRICKET
+http://fpro.webvps.de:25443/tahsin/123456/19239
+#EXTINF:-1,|IN| TEN ACTION
+http://fpro.webvps.de:25443/tahsin/123456/19353
+#EXTINF:-1,|IN| Ten 3
+http://fpro.webvps.de:25443/tahsin/123456/19240
+#EXTINF:-1,|IN| TEN 2
+http://fpro.webvps.de:25443/tahsin/123456/19241
+#EXTINF:-1,|IN| TEN 1 HD
+http://fpro.webvps.de:25443/tahsin/123456/19242
+#EXTINF:-1,|IN| TARA MUSIK
+http://fpro.webvps.de:25443/tahsin/123456/19243
+#EXTINF:-1,|IN| Tamil | ZEE TAMIZH
+http://fpro.webvps.de:25443/tahsin/123456/19354
+#EXTINF:-1,|IN| Tamil | WIN TV
+http://fpro.webvps.de:25443/tahsin/123456/19355
+#EXTINF:-1,|IN| Tamil | VIMBAM TV
+http://fpro.webvps.de:25443/tahsin/123456/19356
+#EXTINF:-1,|IN| Tamil | VIJAY HD
+http://fpro.webvps.de:25443/tahsin/123456/19357
+#EXTINF:-1,|IN| Tamil | VENDHAR
+http://fpro.webvps.de:25443/tahsin/123456/19358
+#EXTINF:-1,|IN| Tamil | VASANTH TV
+http://fpro.webvps.de:25443/tahsin/123456/19359
+#EXTINF:-1,|IN| Tamil | THANTHI NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19360
+#EXTINF:-1,|IN| Tamil | TAMIL ARUVI
+http://fpro.webvps.de:25443/tahsin/123456/19361
+#EXTINF:-1,|IN| Tamil | SUN TV US
+http://fpro.webvps.de:25443/tahsin/123456/19362
+#EXTINF:-1,|IN| Tamil | SUN TV INDIA
+http://fpro.webvps.de:25443/tahsin/123456/19363
+#EXTINF:-1,|IN| Tamil | SUN NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19364
+#EXTINF:-1,|IN| Tamil | SUN MUSIC
+http://fpro.webvps.de:25443/tahsin/123456/19365
+#EXTINF:-1,|IN| Tamil | SUN LIFE
+http://fpro.webvps.de:25443/tahsin/123456/19366
+#EXTINF:-1,|IN| Tamil | STAR VIJAY UK
+http://fpro.webvps.de:25443/tahsin/123456/19367
+#EXTINF:-1,|IN| Tamil | STAR VIJAY
+http://fpro.webvps.de:25443/tahsin/123456/19368
+#EXTINF:-1,|IN| Tamil | Sri Sankara Tamil
+http://fpro.webvps.de:25443/tahsin/123456/19369
+#EXTINF:-1,|IN| Tamil | SIRIPPOLI TV
+http://fpro.webvps.de:25443/tahsin/123456/19370
+#EXTINF:-1,|IN| Tamil | SEITHIGAL
+http://fpro.webvps.de:25443/tahsin/123456/19371
+#EXTINF:-1,|IN| Tamil | RAJ TV
+http://fpro.webvps.de:25443/tahsin/123456/19372
+#EXTINF:-1,|IN| Tamil | RAJ NEWS 24x7
+http://fpro.webvps.de:25443/tahsin/123456/19373
+#EXTINF:-1,|IN| Tamil | RAJ MUSIX
+http://fpro.webvps.de:25443/tahsin/123456/19374
+#EXTINF:-1,|IN| Tamil | RAJ DIGITAL PLUS US
+http://fpro.webvps.de:25443/tahsin/123456/19375
+#EXTINF:-1,|IN| Tamil | RAJ DIGITAL PLUS
+http://fpro.webvps.de:25443/tahsin/123456/19376
+#EXTINF:-1,|IN| Tamil | PUTHUYUGAM TV
+http://fpro.webvps.de:25443/tahsin/123456/19377
+#EXTINF:-1,|IN| Tamil | PUTHIYA THALAIMURAI
+http://fpro.webvps.de:25443/tahsin/123456/19378
+#EXTINF:-1,|IN| Tamil | POLIMER TV
+http://fpro.webvps.de:25443/tahsin/123456/19379
+#EXTINF:-1,|IN| Tamil | POLIMER NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19380
+#EXTINF:-1,|IN| Tamil | Pirai TV (ISLAMIC CH)
+http://fpro.webvps.de:25443/tahsin/123456/19381
+#EXTINF:-1,|IN| Tamil | PEPPERS
+http://fpro.webvps.de:25443/tahsin/123456/19382
+#EXTINF:-1,|IN| Tamil | NEWS 7
+http://fpro.webvps.de:25443/tahsin/123456/19383
+#EXTINF:-1,|IN| Tamil | MURASU TV
+http://fpro.webvps.de:25443/tahsin/123456/19384
+#EXTINF:-1,|IN| 5aab TV Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19341
+#EXTINF:-1,|IN| Tamil | KTV USA
+http://fpro.webvps.de:25443/tahsin/123456/19386
+#EXTINF:-1,|IN| Tamil | KTV US
+http://fpro.webvps.de:25443/tahsin/123456/19387
+#EXTINF:-1,|IN| Tamil | KALAIGNAR TV
+http://fpro.webvps.de:25443/tahsin/123456/19388
+#EXTINF:-1,|IN| Tamil | JAYA TV US
+http://fpro.webvps.de:25443/tahsin/123456/19389
+#EXTINF:-1,|IN| Tamil | JAYA TV
+http://fpro.webvps.de:25443/tahsin/123456/19390
+#EXTINF:-1,|IN| Tamil | JAYA PLUS
+http://fpro.webvps.de:25443/tahsin/123456/19391
+#EXTINF:-1,|IN| Tamil | JAYA MOVIES
+http://fpro.webvps.de:25443/tahsin/123456/19392
+#EXTINF:-1,|IN| Tamil | JAYA MAX USA
+http://fpro.webvps.de:25443/tahsin/123456/19393
+#EXTINF:-1,|IN| Tamil | JAYA MAX
+http://fpro.webvps.de:25443/tahsin/123456/19394
+#EXTINF:-1,|IN| Tamil | ISAI ARUVI
+http://fpro.webvps.de:25443/tahsin/123456/19395
+#EXTINF:-1,|IN| Tamil | EET TV
+http://fpro.webvps.de:25443/tahsin/123456/19396
+#EXTINF:-1,|IN| Tamil | DEEPAM TV
+http://fpro.webvps.de:25443/tahsin/123456/19397
+#EXTINF:-1,|IN| Tamil | DD PODHIGAI
+http://fpro.webvps.de:25443/tahsin/123456/19398
+#EXTINF:-1,|IN| Tamil | DAN TV
+http://fpro.webvps.de:25443/tahsin/123456/19399
+#EXTINF:-1,|IN| Tamil | DAN News
+http://fpro.webvps.de:25443/tahsin/123456/19400
+#EXTINF:-1,|IN| Tamil | DAN Music
+http://fpro.webvps.de:25443/tahsin/123456/19401
+#EXTINF:-1,|IN| Tamil | CHITHIRAM TV
+http://fpro.webvps.de:25443/tahsin/123456/19402
+#EXTINF:-1,|IN| Tamil | CHANNEL UFX
+http://fpro.webvps.de:25443/tahsin/123456/19403
+#EXTINF:-1,|IN| Tamil | CAPTAIN NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19404
+#EXTINF:-1,|IN| Tamil | ADITYA TV
+http://fpro.webvps.de:25443/tahsin/123456/19405
+#EXTINF:-1,|IN| Tamil |  CAPTAIN TV
+http://fpro.webvps.de:25443/tahsin/123456/19406
+#EXTINF:-1,|IN| Star world premier HD
+http://fpro.webvps.de:25443/tahsin/123456/19244
+#EXTINF:-1,|IN| Star world HD
+http://fpro.webvps.de:25443/tahsin/123456/19245
+#EXTINF:-1,|IN| Star Vijay
+http://fpro.webvps.de:25443/tahsin/123456/19246
+#EXTINF:-1,|IN| Star Sports4-SD
+http://fpro.webvps.de:25443/tahsin/123456/19407
+#EXTINF:-1,|IN| Star Sports3-SD
+http://fpro.webvps.de:25443/tahsin/123456/19408
+#EXTINF:-1,|IN| Star Sports2-SD
+http://fpro.webvps.de:25443/tahsin/123456/19247
+#EXTINF:-1,|IN| Star Sports1-SD
+http://fpro.webvps.de:25443/tahsin/123456/19248
+#EXTINF:-1,|IN| STAR SPORTS 4 HD
+http://fpro.webvps.de:25443/tahsin/123456/19409
+#EXTINF:-1,|IN| STAR SPORTS 3 HD
+http://fpro.webvps.de:25443/tahsin/123456/19410
+#EXTINF:-1,|IN| STAR SPORTS 2 HD
+http://fpro.webvps.de:25443/tahsin/123456/19411
+#EXTINF:-1,|IN| STAR SPORTS 1 HD
+http://fpro.webvps.de:25443/tahsin/123456/19412
+#EXTINF:-1,|IN| STAR PRAVAH HD
+http://fpro.webvps.de:25443/tahsin/123456/19249
+#EXTINF:-1,|IN| Star Plus UK
+http://fpro.webvps.de:25443/tahsin/123456/19250
+#EXTINF:-1,|IN| Star Plus
+http://fpro.webvps.de:25443/tahsin/123456/19346
+#EXTINF:-1,|IN| Star Jalsha US
+http://fpro.webvps.de:25443/tahsin/123456/19251
+#EXTINF:-1,|IN| Star Jalsha
+http://fpro.webvps.de:25443/tahsin/123456/19252
+#EXTINF:-1,|IN| STAR GOLD SD
+http://fpro.webvps.de:25443/tahsin/123456/19253
+#EXTINF:-1,|IN| Star Gold
+http://fpro.webvps.de:25443/tahsin/123456/19347
+#EXTINF:-1,|IN| Sony TV HD
+http://fpro.webvps.de:25443/tahsin/123456/19413
+#EXTINF:-1,|IN| Sony Six SD
+http://fpro.webvps.de:25443/tahsin/123456/19348
+#EXTINF:-1,|IN| SONY SAB
+http://fpro.webvps.de:25443/tahsin/123456/19428
+#EXTINF:-1,|IN| sony pix HD
+http://fpro.webvps.de:25443/tahsin/123456/19254
+#EXTINF:-1,|IN| SONY MIX
+http://fpro.webvps.de:25443/tahsin/123456/19255
+#EXTINF:-1,|IN| SONY MAX2
+http://fpro.webvps.de:25443/tahsin/123456/19256
+#EXTINF:-1,|IN| SONY ESPN SD
+http://fpro.webvps.de:25443/tahsin/123456/19257
+#EXTINF:-1,|IN| SONY ESPN HD
+http://fpro.webvps.de:25443/tahsin/123456/19258
+#EXTINF:-1,|IN| SONY AATH
+http://fpro.webvps.de:25443/tahsin/123456/19259
+#EXTINF:-1,|IN| Sonic Nickelodeon
+http://fpro.webvps.de:25443/tahsin/123456/19260
+#EXTINF:-1,|IN| Somoy news
+http://fpro.webvps.de:25443/tahsin/123456/19261
+#EXTINF:-1,|IN| Sikh Channel Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19262
+#EXTINF:-1,|IN| Sanskar TV
+http://fpro.webvps.de:25443/tahsin/123456/19263
+#EXTINF:-1,|IN| Sangat TV
+http://fpro.webvps.de:25443/tahsin/123456/19264
+#EXTINF:-1,|IN| SA TV
+http://fpro.webvps.de:25443/tahsin/123456/19265
+#EXTINF:-1,|IN| Rupashi bangla
+http://fpro.webvps.de:25443/tahsin/123456/19266
+#EXTINF:-1,|IN| RTV
+http://fpro.webvps.de:25443/tahsin/123456/19267
+#EXTINF:-1,|IN| Rishtey ME
+http://fpro.webvps.de:25443/tahsin/123456/19268
+#EXTINF:-1,|IN| RISHTAY ASIA
+http://fpro.webvps.de:25443/tahsin/123456/19269
+#EXTINF:-1,|IN| PTC Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19270
+#EXTINF:-1,|IN| PTC News Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19271
+#EXTINF:-1,|IN| PTC Chakde Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19272
+#EXTINF:-1,|IN| Pogo
+http://fpro.webvps.de:25443/tahsin/123456/19273
+#EXTINF:-1,|IN| PBN Music Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19274
+#EXTINF:-1,|IN| NTV
+http://fpro.webvps.de:25443/tahsin/123456/19275
+#EXTINF:-1,|IN| Nickelodeon Jr Hindi
+http://fpro.webvps.de:25443/tahsin/123456/19276
+#EXTINF:-1,|IN| Nickelodeon Hindi
+http://fpro.webvps.de:25443/tahsin/123456/19277
+#EXTINF:-1,|IN| NICK JR
+http://fpro.webvps.de:25443/tahsin/123456/19278
+#EXTINF:-1,|IN| NICK HD
+http://fpro.webvps.de:25443/tahsin/123456/19279
+#EXTINF:-1,|IN| NEWS X (NEWS)
+http://fpro.webvps.de:25443/tahsin/123456/19280
+#EXTINF:-1,|IN| NEWS 24
+http://fpro.webvps.de:25443/tahsin/123456/19281
+#EXTINF:-1,|IN| NDTV INDIA
+http://fpro.webvps.de:25443/tahsin/123456/19216
+#EXTINF:-1,|IN| NDTV 24X7
+http://fpro.webvps.de:25443/tahsin/123456/19217
+#EXTINF:-1,|IN| National Geographic
+http://fpro.webvps.de:25443/tahsin/123456/19282
+#EXTINF:-1,|IN| Nat Geo Wild HD
+http://fpro.webvps.de:25443/tahsin/123456/19283
+#EXTINF:-1,|IN| Nat Geo People HD
+http://fpro.webvps.de:25443/tahsin/123456/19284
+#EXTINF:-1,|IN| Nat Geo Music HD
+http://fpro.webvps.de:25443/tahsin/123456/19285
+#EXTINF:-1,|IN| MY TV
+http://fpro.webvps.de:25443/tahsin/123456/19286
+#EXTINF:-1,|IN| MUSIC INDIA HD
+http://fpro.webvps.de:25443/tahsin/123456/19414
+#EXTINF:-1,|IN| MTV Indies
+http://fpro.webvps.de:25443/tahsin/123456/19287
+#EXTINF:-1,|IN| MTV India
+http://fpro.webvps.de:25443/tahsin/123456/19288
+#EXTINF:-1,|IN| MovieOK
+http://fpro.webvps.de:25443/tahsin/123456/19350
+#EXTINF:-1,|IN| MOVIE BANGLA
+http://fpro.webvps.de:25443/tahsin/123456/19289
+#EXTINF:-1,|IN| MOHONA TV
+http://fpro.webvps.de:25443/tahsin/123456/19290
+#EXTINF:-1,|IN| Media Punjab Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19291
+#EXTINF:-1,|IN| MAASRANGA TV
+http://fpro.webvps.de:25443/tahsin/123456/19292
+#EXTINF:-1,|IN| Maa TV
+http://fpro.webvps.de:25443/tahsin/123456/19293
+#EXTINF:-1,|IN| LIVING FOODZ 2
+http://fpro.webvps.de:25443/tahsin/123456/19415
+#EXTINF:-1,|IN| Life OK SD
+http://fpro.webvps.de:25443/tahsin/123456/19294
+#EXTINF:-1,|IN| Life ok HD
+http://fpro.webvps.de:25443/tahsin/123456/19416
+#EXTINF:-1,|IN| Jhanjar TV HD Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19295
+#EXTINF:-1,|IN| Jamuna tv
+http://fpro.webvps.de:25443/tahsin/123456/19296
+#EXTINF:-1,|IN| JALSHA MOVIES
+http://fpro.webvps.de:25443/tahsin/123456/19297
+#EXTINF:-1,|IN| India Today
+http://fpro.webvps.de:25443/tahsin/123456/19298
+#EXTINF:-1,|IN| INDEPENDENT TV
+http://fpro.webvps.de:25443/tahsin/123456/19299
+#EXTINF:-1,|IN| Hamdard TV Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19300
+#EXTINF:-1,|IN| GTV tamil
+http://fpro.webvps.de:25443/tahsin/123456/19301
+#EXTINF:-1,|IN| GTV PUNJABI
+http://fpro.webvps.de:25443/tahsin/123456/19302
+#EXTINF:-1,|IN| GEMINI TV
+http://fpro.webvps.de:25443/tahsin/123456/19303
+#EXTINF:-1,|IN| Gaan Bangla
+http://fpro.webvps.de:25443/tahsin/123456/19304
+#EXTINF:-1,|IN| FOOD FOOD TV
+http://fpro.webvps.de:25443/tahsin/123456/19417
+#EXTINF:-1,|IN| ETV UP
+http://fpro.webvps.de:25443/tahsin/123456/19305
+#EXTINF:-1,|IN| ETV UK
+http://fpro.webvps.de:25443/tahsin/123456/19306
+#EXTINF:-1,|IN| ETV Now
+http://fpro.webvps.de:25443/tahsin/123456/19307
+#EXTINF:-1,|IN| ETV MP
+http://fpro.webvps.de:25443/tahsin/123456/19308
+#EXTINF:-1,|IN| ETV 2
+http://fpro.webvps.de:25443/tahsin/123456/19309
+#EXTINF:-1,|IN| ETC Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19310
+#EXTINF:-1,|IN| Ekattor tv
+http://fpro.webvps.de:25443/tahsin/123456/19311
+#EXTINF:-1,|IN| Dhoom Music
+http://fpro.webvps.de:25443/tahsin/123456/19312
+#EXTINF:-1,|IN| Desi TV Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19313
+#EXTINF:-1,|IN| Desi Beats Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19314
+#EXTINF:-1,|IN| DESH TV
+http://fpro.webvps.de:25443/tahsin/123456/19315
+#EXTINF:-1,|IN| DEEPTO TV
+http://fpro.webvps.de:25443/tahsin/123456/19316
+#EXTINF:-1,|IN| Colors UK SD
+http://fpro.webvps.de:25443/tahsin/123456/19418
+#EXTINF:-1,|IN| COLORS KANNADA
+http://fpro.webvps.de:25443/tahsin/123456/19317
+#EXTINF:-1,|IN| Colors Bangla
+http://fpro.webvps.de:25443/tahsin/123456/19318
+#EXTINF:-1,|IN| Color HD
+http://fpro.webvps.de:25443/tahsin/123456/19349
+#EXTINF:-1,|IN| CNBC TV18 (NEWS)
+http://fpro.webvps.de:25443/tahsin/123456/19319
+#EXTINF:-1,|IN| CNBC PRIME TV18 (NEWS)
+http://fpro.webvps.de:25443/tahsin/123456/19320
+#EXTINF:-1,|IN| CNBC Awaaz
+http://fpro.webvps.de:25443/tahsin/123456/19419
+#EXTINF:-1,|IN| CHANNEL V
+http://fpro.webvps.de:25443/tahsin/123456/19321
+#EXTINF:-1,|IN| Channel S Bangla
+http://fpro.webvps.de:25443/tahsin/123456/19322
+#EXTINF:-1,|IN| CHANNEL I
+http://fpro.webvps.de:25443/tahsin/123456/19323
+#EXTINF:-1,|IN| Channel 9
+http://fpro.webvps.de:25443/tahsin/123456/19324
+#EXTINF:-1,|IN| CHANNEL 24
+http://fpro.webvps.de:25443/tahsin/123456/19325
+#EXTINF:-1,|IN| Chakde TV Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19326
+#EXTINF:-1,|IN| CARTOON NETWORK HINDI
+http://fpro.webvps.de:25443/tahsin/123456/19327
+#EXTINF:-1,|IN| Caccia
+http://fpro.webvps.de:25443/tahsin/123456/19328
+#EXTINF:-1,|IN| BTV World
+http://fpro.webvps.de:25443/tahsin/123456/19329
+#EXTINF:-1,|IN| BOISHAKHI TV
+http://fpro.webvps.de:25443/tahsin/123456/19330
+#EXTINF:-1,|IN| BANGLA VISION
+http://fpro.webvps.de:25443/tahsin/123456/19331
+#EXTINF:-1,|IN| Bangala ABP Ananda
+http://fpro.webvps.de:25443/tahsin/123456/19332
+#EXTINF:-1,|IN| B4U Plus
+http://fpro.webvps.de:25443/tahsin/123456/19420
+#EXTINF:-1,|IN| B4U Music
+http://fpro.webvps.de:25443/tahsin/123456/19421
+#EXTINF:-1,|IN| B4U Movies
+http://fpro.webvps.de:25443/tahsin/123456/19422
+#EXTINF:-1,|IN| ATN NEWS
+http://fpro.webvps.de:25443/tahsin/123456/19333
+#EXTINF:-1,|IN| ATN Bangla
+http://fpro.webvps.de:25443/tahsin/123456/19334
+#EXTINF:-1,|IN| Asianet TV US
+http://fpro.webvps.de:25443/tahsin/123456/19423
+#EXTINF:-1,|IN| Asianet Plus
+http://fpro.webvps.de:25443/tahsin/123456/19424
+#EXTINF:-1,|IN| Asian TV
+http://fpro.webvps.de:25443/tahsin/123456/19335
+#EXTINF:-1,|IN| Akaal Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19336
+#EXTINF:-1,|IN| AASTHA
+http://fpro.webvps.de:25443/tahsin/123456/19425
+#EXTINF:-1,|IN| Aamar Bangla
+http://fpro.webvps.de:25443/tahsin/123456/19337
+#EXTINF:-1,|IN| Aaj Tak News
+http://fpro.webvps.de:25443/tahsin/123456/19338
+#EXTINF:-1,|IN| A One Punjabi
+http://fpro.webvps.de:25443/tahsin/123456/19339
+#EXTINF:-1,|IN| 9X Tashan
+http://fpro.webvps.de:25443/tahsin/123456/19426
+#EXTINF:-1,|IN| 9x Music
+http://fpro.webvps.de:25443/tahsin/123456/19340
+#EXTINF:-1,|IN| &TV HD
+http://fpro.webvps.de:25443/tahsin/123456/19427
+#EXTINF:-1,|IN| Tamil | MAKKAL TV
+http://fpro.webvps.de:25443/tahsin/123456/19385
 
 
 
